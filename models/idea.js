@@ -9,9 +9,9 @@ const IdeaSchema = new Schema({
     type: String,
     required: true
   },
-  detail: {
-    type: String,
-    required: true
+  details: {
+    type: String
+    // required: true
   },
   date: {
     type: Date,
