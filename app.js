@@ -67,6 +67,10 @@ app.get("/ideas/add", (req, res) => {
   res.render("ideas/add");
 });
 
+app.get("/ideas", (req, res) => {
+  res.render("ideas");
+});
+
 // process form
 
 app.post("/ideas", (req, res) => {
